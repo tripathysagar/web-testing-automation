@@ -1,0 +1,136 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+dist/
+build/
+eggs/
+*.egg-info/
+__pycache__/
+
+# Compiled Python files
+*.pyc
+*.pyo
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Environment
+.env
+.venv
+venv/
+ENV/
+env/
+__env__/
+
+# VS Code directories
+.vscode/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Sensitive or environment-specific files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Django related
+*.log
+db.sqlite3
+
+# Flask related
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyInstaller
+dist/
+build/
+
+# PyBuilder
+target/
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+
+# Pyre type checker
+.pyre/
+
+# Pytest
+pytest_cache/
+
+# pipenv
+Pipfile.lock
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# Node.js
+node_modules/
+
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Sublime Text directories
+.sublime-project
+.sublime-workspace
+
+# IntelliJ IDEA
+.idea/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Environments
+/.env
+/.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
