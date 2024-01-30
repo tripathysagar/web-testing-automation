@@ -78,13 +78,13 @@ dic = {
 
 
 def parse_arguments():
-    parser = argparse.ArgumentParser(description='Description of your script.')
+    parser = argparse.ArgumentParser(description='to automate web testing using python')
 
     # Add optional argument for debug mode
-    parser.add_argument('--debug', action='store_true', help='Run the script in debug mode')
+    parser.add_argument('--debug', action='set debug=True', help='Run the script in debug mode')
 
     # Add optional argument to show test
-    parser.add_argument('--showTest', action='store_true', help='Show test information')
+    parser.add_argument('--showTest', action='set showTest=True', help='Show test information')
 
     # Parse the command-line arguments
     args = parser.parse_args()
